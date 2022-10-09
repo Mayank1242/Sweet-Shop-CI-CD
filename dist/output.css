@@ -1,0 +1,93 @@
+/* .image-section {
+  
+   height: 100vh;
+  
+} */
+
+h1{
+  font-size: 2rem;
+}
+
+.image-section{
+  background-color: rgb(120, 163, 180);
+  padding: 0;
+}
+
+.image-text{
+  font-size: 0.9rem;
+}
+
+.info_form{
+  /* background-color: color-mix(in srgb, #34c9eb 10%, white); */
+  background: -webkit-linear-gradient(110deg, #dae0e0f6 50%, #9fced8 50%);
+  /* background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -moz-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%); */
+  /* height: 100vh; */
+}
+
+label{
+  font-size: 0.8rem;
+}
+
+.footer{
+  font-size: 0.7rem;
+}
+
+.form-text{
+  /* font-size: 0.8rem; */
+  color: black;
+}
+
+.contact{
+  width:1.5rem;
+  height: 1.5rem;
+}
+
+/* /////////////////////////////////////////////// */
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
