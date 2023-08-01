@@ -63,7 +63,7 @@ function getmonthname(date){
 
     <div className="col image-section m-0" >
     <div className="Hero-left mw-100 text-left  ">
-      <h1  className="text-center fw-bold pt-5"  >GANGA CONFECTIONERIES PVT. LTD.</h1>
+      <h1  className="text-center fw-bold pt-5"  >Sweet Shop Ganga jenkins change</h1>
      <img className="img-fluid mt-3" src={sweets} alt="sweets" />
      <div className="p-3">
      <h6 className="p-0 image-text">
